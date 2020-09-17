@@ -1,0 +1,226 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-padding{
+    margin: 1rem 3rem ;
+}
+.nav-link{
+    font-size: 19px;
+}
+
+/* hero section  */
+.hero-section{
+    background-image: url(/images/quality-hero.jpg);
+    padding: 10rem;
+}
+.hero-heading{
+    padding: 1.5rem;
+    font-size: 6rem;
+    color: white;
+}
+.fa-plane-departure{
+    display: none;
+}
+.hero-para{
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+@media only screen and (max-width :600px){
+    .navbar{
+        background-color: #191970 !important;
+
+    }
+    body{
+        background-color: #191970;
+    }   
+   
+    .hero-section{
+        background-image: none;
+        width: 85vw;
+        height: 80vh;
+        padding: 0;
+        position: relative;
+        margin: 1.5rem auto;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background-color: #000074;
+    }
+    .hero-heading{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12vw!important;
+        line-height: 64px;
+        letter-spacing: 0.01em;
+        color: white;
+        text-align: left;
+        padding: 2rem 1rem;
+    }
+    .fa-plane-departure{
+        display: contents;
+        font-size: 30px;
+        transform: rotate(-27.74deg) !important;
+    }
+    .hero-para{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 9vw;
+        line-height: 10vw;
+        letter-spacing: 0.05em;
+        color: white;
+        padding: 0rem 1rem;
+    }
+    .line1-top-r{
+        width: 100vw;
+        height: 48.2px;
+        background: rgba(255, 255, 255, 0.75);
+        -ms-transform: skewY(-37.09deg); /* IE 9 */
+        transform: skewY(-37.09deg);
+    }
+    .line2-top-r{
+        width: 100vw;
+        height: 48.2px;
+        margin-top: 1rem;
+        background: rgba(196, 196, 196, 0.75);
+        -ms-transform: skewY(-37.09deg); /* IE 9 */
+        transform: skewY(-37.09deg);
+    }
+    .line3-top-r{
+        margin-top: 1rem;
+        width: 100vw;
+        height: 48.2px;
+        background: rgba(255, 255, 255, 0.75);
+        -ms-transform: skewY(-37.09deg); /* IE 9 */
+        transform: skewY(-37.09deg);
+    }
+
+
+    /* box1  */
+    .box-1{
+       background-color: #2D2D7E;
+        width: 85vw;
+        margin: -305rem auto 0 auto;
+        position: relative;
+        z-index: 2;
+        padding-bottom: 1rem;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    }
+    .box-1-heading{
+        padding-top: 1.5rem;
+        font-size: 30px;
+        line-height: 125%;
+        /* or 37px */
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        color: #FFFFFF;
+    }
+    .box-1-para{
+        font-size: 26px;
+        line-height: 150%;
+        /* or 33px */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+    .box-1-button{
+        color: #fff;
+        background-color: #FF6700;
+        text-align: center;
+        margin-left: 25%;
+        padding: .75rem 1.25rem;
+        text-align: center;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 100px;
+    }
+    .lines-2{
+        position: relative;
+        z-index: -1;
+        margin-top: 22rem;
+        
+    }
+    .lines-3{
+        position: relative;
+        z-index: -1;
+        margin-top: 22rem;
+        
+    }
+    .line1-top-l{
+        width: 100vw;
+        height: 48.2px;
+        background: rgba(255, 255, 255, 0.75);
+        -ms-transform: skewY(-37.09deg); /* IE 9 */
+        transform: skewY(42.67deg);
+    }
+    .line2-top-l{
+        width: 100vw;
+        height: 48.2px;
+        margin-top: 1rem;
+        background: rgba(196, 196, 196, 0.75);
+        -ms-transform: skewY(-37.09deg); /* IE 9 */
+        transform: skewY(42.67deg);
+    }
+    .line3-top-l{
+        margin-top: 1rem;
+        width: 100vw;
+        height: 48.2px;
+        background: rgba(255, 255, 255, 0.75);
+        -ms-transform: skewY(-37.09deg); /* IE 9 */
+        transform: skewY(42.67deg);
+    }
+
+    /* box 3 */
+    .box-3{
+        width: 85vw;
+        margin: 1rem auto;
+        background-color: #4B4B81;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .box-3-heading{
+       padding: 1rem ;
+        color: #fff;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 52px;
+        line-height: 61px;
+    }
+    .box-3-para{
+        padding: 1rem;
+        color: #fff;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 150%;
+        /* or 30px */
+
+        letter-spacing: 0.02em;
+    }
+
+}
